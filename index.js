@@ -1,7 +1,15 @@
-const http=require('http');
-const url=require("url");
+const express=require("express")
+const app=express()
+
+app.get("/",(request,response) =>{
+    response.json({
+        message:"Hello World"
+    })
+});
 
 
-const server=http.createServer((request,response)=>{
-    response.writeHead(200,{})
-})
+app.get("/profile",(request,response) =>{
+    response.send("This is a Profile page")
+});
+
+app.listen(3000)
