@@ -1,0 +1,27 @@
+{
+  "name": "iims",
+  "version": "1.0.0",
+  "description": "'''json\r let users=[\r     {\r         'id':1,\r         \"name\":ram\r     }\r ]\r '''\r |Routes                |        Request method              |         Description       |\r |------------          |        --------------              |         -----------       |\r |/user                 |        POST                        |         Create a new user |\r |/user                 |        GET                         |         Get all users     |\r |/user/:id             |        PUT/PATCH                   |         Update user by given unique ID |\r |/user/:id             |        GET                         |         Get user by given unique ID |\r |/user/:id             |        DELETE                      |         Delete user by given unique ID |",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushmzn/node_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushmzn/node_project/issues"
+  },
+  "homepage": "https://github.com/sushmzn/node_project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
