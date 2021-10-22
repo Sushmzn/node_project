@@ -4,7 +4,7 @@
   "description": "'''json\r let users=[\r     {\r         'id':1,\r         \"name\":ram\r     }\r ]\r '''\r |Routes                |        Request method              |         Description       |\r |------------          |        --------------              |         -----------       |\r |/user                 |        POST                        |         Create a new user |\r |/user                 |        GET                         |         Get all users     |\r |/user/:id             |        PUT/PATCH                   |         Update user by given unique ID |\r |/user/:id             |        GET                         |         Get user by given unique ID |\r |/user/:id             |        DELETE                      |         Delete user by given unique ID |",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
